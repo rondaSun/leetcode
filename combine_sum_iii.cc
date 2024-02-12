@@ -14,8 +14,9 @@ public:
     }
     vector<vector<int>> combinationSum3(int k, int n) {
         vector<vector<int> > ret;
-        vector<int> vec;
-        dfs(1, k, n, vec, ret);
+        vector<int> vec1;
+        dfs(1, k, n, vec1, ret);
+        // return the value
         return ret;
     }
 };
